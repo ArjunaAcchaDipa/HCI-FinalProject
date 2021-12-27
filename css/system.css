@@ -1,0 +1,32 @@
+main {
+    padding: 20px 0;
+}
+
+.sys-img {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.sys-img img {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sys-req {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 40px;
+}
+
+.sys-req h3 { 
+    margin: 10px 0;
+}
+
+.minimum, .recommended {
+    margin: 0 10px;
+}

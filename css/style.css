@@ -59,10 +59,9 @@ content a:hover {
 
 content img {
     width: 80%;
-    height: auto;
+    height: 270px;
     margin-left: auto;
     margin-right: auto;
-    height: 270px;
 }
 
 content .top-content, .bot-content {
