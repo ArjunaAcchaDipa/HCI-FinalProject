@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px 40px;
+    align-items: center;
+    background-color: #000000;
+}
+
+header .nav {
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+header a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+header a:hover {
+    color: #ac1b1b;
+}
+
+main {
+    background-color: #000000;
+}
+
+main .logo img {
+    width: 100%;
+    height: auto;
+}
+
+main .description {
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+content a {
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+content a:hover {
+    text-decoration: underline;
+}
+
+content img {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 270px;
+}
+
+content .top-content, .bot-content {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    padding: 20px;
+    align-content: center;
+    background-color: #000000;
+}
+
+.about, .character, .system, .game {
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    margin: 0 20px;
+    display: flex;
+	flex-direction: column; 
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    width: 600px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+    align-items: center;
+    color: white;
+    background-color: #000000;
+}
+
+footer div {
+    padding: 5px 0;
+}
+
+footer .contact-us {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer img {
+    width: 25px;
+    padding: 0 10px;
+}
