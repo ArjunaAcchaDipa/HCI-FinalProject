@@ -7,6 +7,8 @@
     <title>Devil May Crie 5</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./Logo/Devil May Crie 5 Logo.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./js/preview.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -64,7 +66,17 @@
             <div class="game">
                 <!-- image-slider made using JQuery animation effect -->
                 <a href="./game.html">Preview</a>
-                <img src="./asset/game/game.jpg" alt="">
+                <div class="nav-preview">
+                    <img src="./asset/game/arrow-left.png" class="prev" alt="">
+                    <img src="./asset/game/arrow-right.png" class="next" alt="">
+                </div>
+                <div class="slider">
+                    <img src="./asset/game/game.jpg" class="active" alt="">
+                    <!-- <img src="./asset/game/gameplay-1.jpg" alt="">
+                    <img src="./asset/game/gameplay-2.jpg" alt=""> -->
+                    <iframe width="480" height="270" src="https://www.youtube.com/embed/HBUT7RJdxVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="480" height="270" src="https://www.youtube.com/embed/bP8tqyQTimw?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </content>

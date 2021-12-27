@@ -85,6 +85,56 @@ content .top-content, .bot-content {
     width: 600px;
 }
 
+.game {
+    overflow: auto;
+    position: relative;
+}
+
+.game .nav-preview {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+.prev, .next {
+    margin-top: 20vh;
+    cursor: pointer;
+    width: 46px;
+    height: 48px;
+}
+
+.prev {
+    margin-left: 45px;
+}
+
+.next {
+    margin-right: 45px;
+}
+
+.game .slider {
+    width: 480px;
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider img, iframe {
+    display: none;
+    width: 480px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider img.active, iframe.active {
+    display: inline-block;
+}
+
 footer {
     display: flex;
     flex-direction: column;
