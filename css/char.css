@@ -1,0 +1,11 @@
+.char{
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    margin: 0 20px;
+    display: flex;
+	flex-direction: column; 
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    width: 600px;
+}
