@@ -1,21 +1,42 @@
-main h1, p{
+main {
+    padding: 2vh 4vw;
+}
+
+.sys-img {
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0;
+}
+
+.sys-img img {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h1, p {
     text-align: center;
 }
 
-main img{
-    width: 200px;
-    height: 300px;
-    padding: 0 30px;
+main p {
+    padding-bottom: 2vh;
 }
 
-main div{
+main img {
+    width: 80%;
+    height: auto;
+    padding: 0 2vw;
+}
+
+main div {
     padding: 20px 0;
     display:flex;
     justify-content: center;
     flex-direction: row;
 }
 
-.bg-img{
+.bg-img {
     background-color: rgb(54, 54, 54);
     border-radius: 10px;
     margin: 0 2vh;
@@ -25,15 +46,3 @@ main div{
     padding-bottom: 20px;
     font-size: 20px;
 }
-
-/* .char1-1{
-    background-image: url("./asset/characters/Aizen.jpg");
-    width: 200px;
-    height: 200px;
-    padding: 0 30px;
-    HCI{0hN0oo0o0x63zhc1_f1n4L}
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
