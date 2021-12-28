@@ -1,0 +1,59 @@
+main {
+    padding: 2vh 4vw;
+}
+
+main h1 {
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+.sys-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 0;
+}
+
+.game-slider, .game-choice {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border:#666 solid 1px;
+}
+
+.game-slider img, .game-slider iframe {
+    display: none;
+    width: 60vw;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game-slider img.active, .game-slider iframe.active {
+    display: inline-block;
+}
+
+.game-choice {
+    flex-direction: row;
+    overflow: scroll;
+    overflow-y: hidden;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+.game-choice img {
+    display: flex;
+    width: 48vw;
+    height: 27vh;
+    opacity: 0.5;
+    margin: 0 0.5vw;
+    border: #666 solid 1px;
+}
+
+.game-choice img.choice-active {
+    opacity: 1;
+}

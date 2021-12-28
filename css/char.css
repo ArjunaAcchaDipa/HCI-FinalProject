@@ -18,7 +18,7 @@ main div{
 .bg-img{
     background-color: rgb(54, 54, 54);
     border-radius: 10px;
-    margin: 0 20px;
+    margin: 0 2vh;
     display: flex;
 	flex-direction: column; 
     text-align: center;
@@ -36,3 +36,4 @@ main div{
     background-repeat: no-repeat;
     background-size: cover;
 }
+

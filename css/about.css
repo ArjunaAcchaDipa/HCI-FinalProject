@@ -1,11 +1,11 @@
 main {
-    padding: 20px 40px;
+    padding: 2vh 4vw;
 }
 
 .sys-img {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 2vh 0;
 }
 
 .sys-img img {
@@ -16,5 +16,5 @@ main {
 }
 
 main h1 {
-    margin: 10px 0;
+    margin: 1vh 0;
 }

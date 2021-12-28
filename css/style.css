@@ -4,11 +4,19 @@
     color: white;
 }
 
+* a {
+    font-size: 1.3vw;
+}
+
+* p {
+    text-align: justify;
+}
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 10px 40px;
+    padding: 1vh 4vw;
     align-items: center;
     background-color: #000000;
 }
@@ -18,12 +26,12 @@ header .nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 1vh 0;
 }
 
 header a {
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 1vw;
 }
 
 header a:hover {
@@ -34,6 +42,14 @@ main {
     background-color: #000000;
 }
 
+main h1 {
+    font-size: 2.4vw;
+}
+
+main p {
+    font-size: 1.15vw;
+}
+
 main .logo img {
     width: 100%;
     height: auto;
@@ -41,7 +57,7 @@ main .logo img {
 
 main .description {
     position: absolute;
-    top: 200px;
+    top: 23vh;
     left: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -57,18 +73,18 @@ content a:hover {
     text-decoration: underline;
 }
 
-content img {
+content img, content iframe {
     width: 80%;
-    height: 270px;
+    height: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-content .top-content, .bot-content {
+content .top-content, content .bot-content {
     display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-    padding: 20px;
+    padding: 2.5vh;
     align-content: center;
     background-color: #000000;
 }
@@ -76,13 +92,13 @@ content .top-content, .bot-content {
 .about, .character, .system, .game {
     background-color: rgb(54, 54, 54);
     border-radius: 10px;
-    margin: 0 20px;
+    margin: 0 2vh;
     display: flex;
 	flex-direction: column; 
     text-align: center;
-    padding-bottom: 20px;
-    font-size: 20px;
-    width: 600px;
+    padding-bottom: 2vh;
+    font-size: 2vw;
+    width: 39vw;
 }
 
 .game {
@@ -90,7 +106,7 @@ content .top-content, .bot-content {
     position: relative;
 }
 
-.game .nav-preview {
+.nav-preview {
     display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -100,57 +116,63 @@ content .top-content, .bot-content {
 }
 
 .prev, .next {
-    margin-top: 20vh;
+    margin-top: 25%;
     cursor: pointer;
-    width: 46px;
-    height: 48px;
+    width: 3vw;
+    height: 6vh;
+}
+
+.prev img, .next img {
+    width: 10%;
+    height: 8%;
 }
 
 .prev {
-    margin-left: 45px;
+    margin-left: 1.2vw;
 }
 
 .next {
-    margin-right: 45px;
+    margin-right: 1.2vw;
 }
 
 .game .slider {
-    width: 480px;
-    height: 270px;
+    width: 80%;
+    height: 90%;
     position: relative;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
+    z-index: 102;
 }
 
-.slider img, iframe {
+.slider img, .slider iframe {
     display: none;
-    width: 480px;
-    height: 270px;
+    width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.slider img.active, iframe.active {
+.slider img.active, .slider iframe.active {
     display: inline-block;
 }
 
 footer {
     display: flex;
     flex-direction: column;
-    padding: 10px 40px;
+    padding: 1vh 4vw;
     align-items: center;
     color: white;
     background-color: #000000;
 }
 
 footer div {
-    padding: 5px 0;
+    padding: 0.5vh 0;
 }
 
 footer .contact-us {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.5vw;
 }
 
 footer a {
@@ -158,6 +180,6 @@ footer a {
 }
 
 footer img {
-    width: 25px;
-    padding: 0 10px;
+    width: 2vw;
+    padding: 0 1vw;
 }
