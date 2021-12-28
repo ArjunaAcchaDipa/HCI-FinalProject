@@ -1,11 +1,11 @@
 main {
-    padding: 20px 0;
+    padding: 6vh 4vw;
 }
 
 .sys-img {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 6vh 0;
 }
 
 .sys-img img {
@@ -20,13 +20,17 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0 40px;
+    padding: 0 4vw;
 }
 
 .sys-req h3 { 
-    margin: 10px 0;
+    margin: 1vh 0;
+}
+
+.sys-req p {
+    font-size: 1vw;
 }
 
 .minimum, .recommended {
-    margin: 0 10px;
+    margin: 0 1vw;
 }
