@@ -80,14 +80,21 @@ content img, content iframe {
     margin-right: auto;
 }
 
+@media screen and (max-width: 600px) {
+    content .top-content, content .bot-content {
+        flex-direction: column;
+    }
+}
+
 content .top-content, content .bot-content {
     display: flex;
+    flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-around;
     padding: 2.5vh;
     align-content: center;
     background-color: #000000;
-}
+}    
 
 .about, .character, .system, .game {
     background-color: rgb(54, 54, 54);
